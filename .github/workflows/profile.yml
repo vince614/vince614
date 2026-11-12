@@ -1,0 +1,44 @@
+name: Generate profile assets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # toutes les 12 h
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats, langages et texte animé
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate.py ${{ github.repository_owner }} dist
+
+      - name: Serpent de contributions
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#E100FF&color_dots=#161b22,#3b0764,#6b21a8,#a21caf,#e100ff
+
+      - name: Commit des images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git diff --cached --quiet || git commit -m "🤖 Update profile assets"
+          git push
