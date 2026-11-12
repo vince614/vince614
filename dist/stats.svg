@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="266" viewBox="0 0 430 266">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#7F00FF"/><stop offset=".5" stop-color="#E100FF"/><stop offset="1" stop-color="#00D4FF"/>
+</linearGradient></defs>
+<style>
+.t{font:600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:url(#g)} .l{font:400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#C9D1D9} .v{font:700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#00D4FF}
+.row{opacity:0;animation:in .6s ease-out forwards} @keyframes in{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+.bar{transform-box:fill-box;transform:scaleX(0);animation:grow 1.2s ease-out forwards} @keyframes grow{to{transform:scaleX(1)}}
+</style>
+<rect x=".5" y=".5" width="429" height="265" rx="10" fill="#0D1117" stroke="#30363D"/>
+<text x="25" y="35" class="t">Vince&#x27;s GitHub stats</text>
+<g class="row" style="animation-delay:0.00s"><circle cx="32" cy="65" r="4" fill="#E100FF"/><text x="45" y="70" class="l">Contributions (last year)</text><text x="400" y="70" class="v" text-anchor="end">1 430</text></g>
+<g class="row" style="animation-delay:0.15s"><circle cx="32" cy="93" r="4" fill="#E100FF"/><text x="45" y="98" class="l">Commits (last year)</text><text x="400" y="98" class="v" text-anchor="end">1 424</text></g>
+<g class="row" style="animation-delay:0.30s"><circle cx="32" cy="121" r="4" fill="#E100FF"/><text x="45" y="126" class="l">Pull requests</text><text x="400" y="126" class="v" text-anchor="end">15</text></g>
+<g class="row" style="animation-delay:0.45s"><circle cx="32" cy="149" r="4" fill="#E100FF"/><text x="45" y="154" class="l">Issues</text><text x="400" y="154" class="v" text-anchor="end">44</text></g>
+<g class="row" style="animation-delay:0.60s"><circle cx="32" cy="177" r="4" fill="#E100FF"/><text x="45" y="182" class="l">Total stars</text><text x="400" y="182" class="v" text-anchor="end">4</text></g>
+<g class="row" style="animation-delay:0.75s"><circle cx="32" cy="205" r="4" fill="#E100FF"/><text x="45" y="210" class="l">Public repos</text><text x="400" y="210" class="v" text-anchor="end">33</text></g>
+<g class="row" style="animation-delay:0.90s"><circle cx="32" cy="233" r="4" fill="#E100FF"/><text x="45" y="238" class="l">Followers</text><text x="400" y="238" class="v" text-anchor="end">8</text></g>
+</svg>
