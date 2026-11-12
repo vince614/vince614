@@ -6,7 +6,7 @@
 <!-- Texte tapé à la machine -->
 <p align="center">
   <a href="https://github.com/vince614">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=C86BFA&center=true&vCenter=true&width=600&lines=TypeScript+%26+Next.js+enthusiast;PHP+%7C+Symfony+%7C+Magento+2;Discord+bots+%26+APIs+builder;Creator+of+DiscordInvites.net+🚀" alt="Typing SVG"/>
+    <img src="./dist/typing.svg" alt="TypeScript & Next.js enthusiast · PHP | Symfony | Magento 2 · Discord bots & APIs builder · Creator of DiscordInvites.net"/>
   </a>
 </p>
 
@@ -53,8 +53,8 @@ const vince = {
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vince614&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&count_private=true" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vince614&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&langs_count=8" alt="langs"/>
+  <img height="190" src="./dist/stats.svg" alt="GitHub stats"/>
+  <img height="190" src="./dist/langs.svg" alt="Most used languages"/>
 </p>
 
 <p align="center">
@@ -62,12 +62,10 @@ const vince = {
 </p>
 
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=vince614&theme=react-dark&hide_border=true&bg_color=0D1117&color=E100FF&line=7F00FF&point=00D4FF&area=true" alt="activity graph"/>
+  <img width="95%" src="./dist/snake.svg" alt="Snake eating my contribution graph"/>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vince614&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1" alt="trophies"/>
-</p>
+<sub><p align="center">Cards auto-generated every 12 h by a GitHub Action in this repo ⚙️</p></sub>
 
 <!-- Bannière de pied de page -->
 <p align="center">
