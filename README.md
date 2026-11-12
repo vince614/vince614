@@ -53,8 +53,8 @@ const vince = {
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="190" src="./dist/stats.svg" alt="GitHub stats"/>
-  <img height="190" src="./dist/langs.svg" alt="Most used languages"/>
+  <img width="49%" src="./dist/stats.svg" alt="GitHub stats"/>
+  <img width="49%" src="./dist/langs.svg" alt="Most used languages"/>
 </p>
 
 <p align="center">
