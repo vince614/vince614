@@ -9,8 +9,8 @@
 </style>
 <rect x=".5" y=".5" width="429" height="265" rx="10" fill="#0D1117" stroke="#30363D"/>
 <text x="25" y="35" class="t">Vince&#x27;s GitHub stats</text>
-<g class="row" style="animation-delay:0.00s"><circle cx="32" cy="65" r="4" fill="#E100FF"/><text x="45" y="70" class="l">Contributions (last year)</text><text x="400" y="70" class="v" text-anchor="end">1 430</text></g>
-<g class="row" style="animation-delay:0.15s"><circle cx="32" cy="93" r="4" fill="#E100FF"/><text x="45" y="98" class="l">Commits (last year)</text><text x="400" y="98" class="v" text-anchor="end">1 424</text></g>
+<g class="row" style="animation-delay:0.00s"><circle cx="32" cy="65" r="4" fill="#E100FF"/><text x="45" y="70" class="l">Contributions (last year)</text><text x="400" y="70" class="v" text-anchor="end">1 468</text></g>
+<g class="row" style="animation-delay:0.15s"><circle cx="32" cy="93" r="4" fill="#E100FF"/><text x="45" y="98" class="l">Commits (last year)</text><text x="400" y="98" class="v" text-anchor="end">1 462</text></g>
 <g class="row" style="animation-delay:0.30s"><circle cx="32" cy="121" r="4" fill="#E100FF"/><text x="45" y="126" class="l">Pull requests</text><text x="400" y="126" class="v" text-anchor="end">15</text></g>
 <g class="row" style="animation-delay:0.45s"><circle cx="32" cy="149" r="4" fill="#E100FF"/><text x="45" y="154" class="l">Issues</text><text x="400" y="154" class="v" text-anchor="end">44</text></g>
 <g class="row" style="animation-delay:0.60s"><circle cx="32" cy="177" r="4" fill="#E100FF"/><text x="45" y="182" class="l">Total stars</text><text x="400" y="182" class="v" text-anchor="end">4</text></g>
