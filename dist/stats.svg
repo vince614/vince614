@@ -15,5 +15,5 @@
 <g class="row" style="animation-delay:0.45s"><circle cx="32" cy="149" r="4" fill="#E100FF"/><text x="45" y="154" class="l">Issues</text><text x="400" y="154" class="v" text-anchor="end">44</text></g>
 <g class="row" style="animation-delay:0.60s"><circle cx="32" cy="177" r="4" fill="#E100FF"/><text x="45" y="182" class="l">Total stars</text><text x="400" y="182" class="v" text-anchor="end">4</text></g>
 <g class="row" style="animation-delay:0.75s"><circle cx="32" cy="205" r="4" fill="#E100FF"/><text x="45" y="210" class="l">Public repos</text><text x="400" y="210" class="v" text-anchor="end">33</text></g>
-<g class="row" style="animation-delay:0.90s"><circle cx="32" cy="233" r="4" fill="#E100FF"/><text x="45" y="238" class="l">Followers</text><text x="400" y="238" class="v" text-anchor="end">8</text></g>
+<g class="row" style="animation-delay:0.90s"><circle cx="32" cy="233" r="4" fill="#E100FF"/><text x="45" y="238" class="l">Followers</text><text x="400" y="238" class="v" text-anchor="end">7</text></g>
 </svg>
